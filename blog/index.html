@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reman Sunuwar - Home</title>
+  <link rel="stylesheet" href="/css/all.style.css">
+  <link rel="stylesheet" href="/css/all.responsive.css">
+  <link rel="stylesheet" href="/css/utility.css">
+  <link rel="stylesheet" href="/css/blog.all.css">
+
+</head>
+
+<body>
+
+  <nav class="navBar">
+    <div class="logo">
+      <a href="/">Reman</a>
+    </div>
+    <div class="hamburger" id="hamburgerMenu">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="navLinks opacityXero">
+      <ul class="navList">
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog/index.html">Blog</a></li>
+        <li><a href="/contact/index.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="blogContainer">
+    <div class="itemsCenter">
+      <div class="container">
+        <h1 class="my-4">Welcome to Reman Sunuwar Blogs</h1>
+
+
+
+        <div class="blogItems">
+          <div class="blogItem">
+            <h2 class="blogTitle mt-2">Reman Sunuwar - Github</h2>
+            <a href="/blog/blogpost/blog.html" class="blogDescription my-2">
+              Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and
+              most advanced development platform in the world.
+            </a><br>
+            <button class="btnsm out-line-primary fontrem my-2 cursorPointer"><a href="/blog/blogpost/blog.html"
+                class="textDNone">Read More...</a></button>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+
+  <div style="min-height: 400px;"></div>
+
+  <footer class="footer textCenter bgDark colorWhite">
+    <p>copyright &copy;
+      <span id="dateFooter">
+
+      </span>
+      <script>
+        setInterval(() => {
+          let date = new Date().getFullYear();
+          document.getElementById("dateFooter").innerHTML = date;
+        }, 1000);
+      </script>
+      Reman Sunuwar
+    </p>
+  </footer>
+
+</body>
+<script src="/js/blog.js"></script>
+
+</html>

@@ -1,0 +1,102 @@
+@media only screen and (max-width: 560px){
+    .navBar{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+        height: 40px;
+        transition: all 1s ease-out;
+    }
+
+    .navBar .logo a{
+        font-size: 30px;
+    }
+
+    .navBar .navList{
+        flex-direction: column;
+    }
+
+    .navBar .navList li{
+        margin: 10px 0;
+    }
+
+    .navBar .navList li a{
+        margin: 0;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .navBarActive{
+        height: 165px;
+    }
+
+    .opacityXero{
+        opacity: 0;
+    }
+    
+    .opacityVisible{
+        opacity: 2;
+        transition: all 3s ease-in-out;
+    }
+}
+
+
+
+@media only screen and (max-width: 490px){
+    .hamburger{
+        left: 90vw;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+   
+}
+
+
+@media only screen and (max-width: 330px){
+    .hamburger{
+        left: 86vw;
+    }
+}
+
+
+@media only screen and (max-width: 225px){
+    .hamburger{
+        left: 80vw;
+    }
+}
+
+
+@media only screen and (max-width: 172px){
+    .hamburger{
+        left: 74vw;
+    }
+}
+
+
+@media only screen and (max-width: 618px){
+    .service-section-content{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:960px){
+    .service-box{
+        max-width: 45%
+    }
+}
+
+@media screen and (max-width:768px){
+    .service-box{
+        max-width: 50%
+    }
+}
+
+@media screen and (max-width:480px){
+    .service-box{
+        max-width: 100%
+    }
+}

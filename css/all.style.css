@@ -1,0 +1,206 @@
+/* google font apis */
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 2px 40px;
+    background-color: rgb(3, 13, 35);
+}
+
+.navBar .logo a{
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: yellowgreen;
+}
+
+.navBar .navList{
+    display: flex;
+    list-style: none;
+}
+
+.navBar .navList li a{
+    font-size: 20px;
+    margin: 0 20px;
+    text-decoration: none;
+    font-family: 'Cabin Condensed', sans-serif;
+    color: white;
+}
+
+.hamburger{
+    display: none;
+    position: absolute;
+    left: 93vw;
+    top: 5px;
+    cursor: pointer;
+}
+
+.hamburger .line{
+    width: 22px;
+    height: 3px;
+    margin: 5px;
+    background-color: white;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Cabin Condensed', sans-serif;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  
+
+.services-section{
+  background: #f1f1f1;
+  background-size: cover;
+  padding: 60px 0;
+  }
+  
+  
+  .inner-width{
+  width: 100%;
+  max-width:1200px ;
+  margin: auto;
+  padding:0 20px ;
+  overflow: hidden;
+  }
+   
+  
+  .section-title{
+  text-align: center;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 30px;
+  }
+  
+  
+  .services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  
+  
+  .service-box{
+  max-width: 33.33%;
+  padding:10px;
+  text-align: center;
+  color: #ddd;
+  }
+  
+  
+   .service-title{
+      font-size: 30px;
+      margin-bottom: 10px;
+      font-family: 'roboto', sans-serif;
+      color: black;
+   }
+  
+  .service-desc{
+      font-size: 20px; 
+      font-family: 'Cabin Condensed', sans-serif;
+      color: black;
+  }
+
+  
+  
+.footer{
+  font-size: 18px;
+  font-family: 'roboto', sans-serif;
+  padding: 10px 20px;
+}

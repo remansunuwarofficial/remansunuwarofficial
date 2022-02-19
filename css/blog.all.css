@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+.blogContainer h1{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 40px;
+}
+
+.blogContainer .blogTitle{
+    font-size: 30px;
+    font-family: 'Fira Code', monospace;
+}
+
+.blogContainer .blogDescription{
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+}

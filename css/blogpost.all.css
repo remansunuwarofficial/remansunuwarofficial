@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Rubik+Mono+One');
+
+:root {
+    --ratio: 1.61803398875;
+    --s-5: calc(var(--s-4) / var(--ratio));
+    --s-4: calc(var(--s-3) / var(--ratio));
+    --s-3: calc(var(--s-2) / var(--ratio));
+    --s-2: calc(var(--s-1) / var(--ratio));
+    --s-1: calc(var(--s0) / var(--ratio));
+    --s0: 1rem;
+    --s1: calc(var(--s0) * var(--ratio));
+    --s2: calc(var(--s1) * var(--ratio));
+    --s3: calc(var(--s2) * var(--ratio));
+    --s4: calc(var(--s3) * var(--ratio));
+    --s5: calc(var(--s4) * var(--ratio));
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    /* background-color: #fffff; */
+    /* color: #363636; */
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+.wrapper {
+    padding: 0 0 0 0;
+    padding: 0 12% 0 12%;
+    display: inline-block;
+    /*   float:left; */
+}
+
+h1 {
+    font-size: var(--s3);
+    text-align: center;
+}
+
+.title {
+    padding-top: 2rem;
+    color: #4C74C9;
+    font-size: var(--s2);
+}
+
+p {
+    line-height: 2rem;
+}
+
+span {
+    color: #00a1e1;
+}
+
+.blogImg{
+    width: 400px;
+}
+
+@media screen and (max-width: 600px){
+    .blogImg{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+}
