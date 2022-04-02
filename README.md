@@ -15,5 +15,3 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 copyright (c) reman sunuwar 2022
-
-Open File in vs code and open on live sever so that you can view full website.
